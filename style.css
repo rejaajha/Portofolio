@@ -367,6 +367,7 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px 0 10px;
 }
 /* pengeturan display sec.footer */
 
@@ -394,6 +395,7 @@ label {
   left: 0;
   background-color: #333;
   padding: 20px;
+  padding-right: 0;
   width: 100%;
   display: none;
   border-radius: 10px;
@@ -411,6 +413,23 @@ label {
   font-size: 20px;
 }
 /* footer nav */
+
+.footer hr {
+  margin: 20px 0 20px 0;
+}
+
+.second-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.second-foot p {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 /* footer sec */
 
 @media screen and (min-width: 1000px) {
