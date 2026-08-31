@@ -244,12 +244,18 @@ nav {
 .title-card a {
   font-size: 18px;
   color: #ff52a0;
-  margin-top: 10px;
+}
+
+.title-card p {
+  font-weight: 200;
+  color: rgb(184, 184, 184);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .title-card {
-  padding: 20px 15px;
-  text-align: left;
+  padding: 15px;
+  text-align: center;
 }
 /* project card */
 
